@@ -21,7 +21,7 @@ function solution(new_id) {
  // 7 last dot
  answer = answer.replace(lastDot, '')
 
-  // 8 new_id.length <= 2  
+  // 8 new_id.length <= 2
   if (new_id.length <= 2 || answer.length <= 2 ) {
     while(answer.length < 3) {
       answer += answer.substr(answer.length - 1)
