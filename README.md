@@ -14,5 +14,10 @@
 - [세 수 중 최솟값](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/01.md)
 - [삼각형 판별하기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/02.md)
 - [연필 다스 구하기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/03.md)
+- [1부터 N까지 합 출력하기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/04.md)
+- [최솟값 구하기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/05.md)
+- [홀수 중 최솟값 구하기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/06.md)
+- [10부제에 해당하는 차량 대수 구하기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/07.md)
+- [일곱 난쟁이](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/08.md)
 
 </details>
