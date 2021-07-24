@@ -19,5 +19,8 @@
 - [홀수 중 최솟값 구하기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/06.md)
 - [10부제에 해당하는 차량 대수 구하기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/07.md)
 - [일곱 난쟁이](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/08.md)
+- [A를 #으로](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/09.md)
+- [문자 찾기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/10.md)
+- [대문자 찾기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/11.md)
 
 </details>
