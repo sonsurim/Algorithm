@@ -1,9 +1,11 @@
 // case1
 function solution(s) {
+  console.time('s1')
   let answer;
 
   answer = s.replace(/A/g, '#');
 
+  console.timeEnd('s1')
   return answer;
 }
 
@@ -12,6 +14,7 @@ console.log(solution(str));
 
 // case2
 function solution2(s) {
+  console.time('s2')
   let answer = '';
   arr = s.split('');
 
@@ -22,8 +25,9 @@ function solution2(s) {
     answer += arr[i];
   }
 
+  console.timeEnd('s2')
   return answer;
 }
 
-let str = 'BANANA';
-console.log(solution2(str));
+let str2 = 'BANANA';
+console.log(solution2(str2));
