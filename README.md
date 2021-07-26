@@ -22,5 +22,7 @@
 - [A를 #으로](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/09.md)
 - [문자 찾기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/10.md)
 - [대문자 찾기](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/11.md)
-
+- [대문자로 통일](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/12.md)
+- [대소문자 변환](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/13.md)
+- [가장 긴 문자열](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/14.md)
 </details>
