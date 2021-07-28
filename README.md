@@ -25,4 +25,7 @@
 - [대문자로 통일](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/12.md)
 - [대소문자 변환](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/13.md)
 - [가장 긴 문자열](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/14.md)
+- [가운데 문자 출력](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/15.md)
+- [중복 문자 제거](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/16.md)
+- [중복 단어 제거](https://github.com/sonsurim/Algorithm/blob/main/solution/inflearn/section1/md/17.md)
 </details>
