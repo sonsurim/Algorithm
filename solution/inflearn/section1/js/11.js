@@ -15,7 +15,7 @@ console.log(solution(str));
 
 // Case2. Regexp
 function solution2(s) {
-  return s.match(/[A-Z]/g).length;
+  return s.match(/[A-Z]/g)?.length ? s.match(/[A-Z]/g).length : 0;
 }
 
 let str2="KoreaTimeGood";
