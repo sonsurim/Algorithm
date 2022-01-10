@@ -1,5 +1,5 @@
 function solution() {
-  const answer;
+  const answer = null;
 
   return answer;
 }
