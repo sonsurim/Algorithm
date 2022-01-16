@@ -13,11 +13,11 @@ function solution(answers) {
       correct[0]++
     }
 
-    if (answer === student2[idx % student1.length]) {
+    if (answer === student2[idx % student2.length]) {
       correct[1]++
     }
 
-    if (answer === student3[idx % student1.length]) {
+    if (answer === student3[idx % student3.length]) {
       correct[2]++
     }
   })
