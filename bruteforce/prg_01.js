@@ -4,7 +4,7 @@ const input = require('fs').readFileSync(`${__dirname}/input/prg_01.txt`).toStri
 function solution(answers) {
   const answer = []
   const student1 = [1,2,3,4,5]
-  const student2 = [2,1,2,3,4,2,5]
+  const student2 = [2,1,2,3,2,4,2,5]
   const student3 = [3,3,1,1,2,2,4,4,5,5]
   const correct = Array.from({length: 3}, _ => 0)
 
