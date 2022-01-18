@@ -1,44 +1,48 @@
 const input = require('fs').readFileSync(`${__dirname}/input/inf_03.txt`).toString().trim().split('\n')
 const [N, M] = input[0].split(' ').map(i => 1 * i)
-const arr1 = input[1].split(' ').map(i => 1 * i)
-const arr2 = input[2].split(' ').map(i => 1 * i)
-const arr3 = input[3].split(' ').map(i => 1 * i)
+const tests = []
+
+for (let i = 1; i <= 3; i++) {
+  tests.push(input[i].split(' ').map(i => 1 * i))
+}
 
 // N: 학생 수
 // M: 테스트 수
 // answer: 멘토,멘티 짝꿍의 경우의 수
-function solution(N, M, arr) {
+function solution(N, M, tests) {
   let answer = 0
-  const temp = []
 
-  for(let i = 1; i<=N; i++) {
-    const mentor = i
-    for(let j = 1; j<=N; j++) {
-      const mentee = j
-      // 멘토, 멘티 정해지고 나서 k번 테스트 진행 횟수 카운트
+  // 1. 멘토를 정하기
+  for (let mentor = 1; mentor <= N; mentor++) {
+    // 2. 멘티를 정하기
+    for (let mentee = 1; mentee <= N; mentee++) {
       let passedTestLength = 0
 
-      arr.forEach((test, k) => {
+      // 3. 테스트를 M번 진행하기
+      tests.forEach(test => {
         let mentorIdx = 0
         let menteeIdx = 0
 
-        test.forEach((item, s) => {
-          if (item === mentor) {
-            mentorIdx = s
+        // 4. 테스트 1번씩 총 M번 진행
+        test.forEach((student, studentIdx) => {
+          if (mentor === student) {
+            mentorIdx = studentIdx
           }
-          if (item === mentee) {
-            menteeIdx = s
+
+          if (mentee === student) {
+            menteeIdx = studentIdx
           }
+          console.log(test, mentor, mentee, student);
         })
 
+        // 5. 테스트 통과 여부 확인
         if (mentorIdx < menteeIdx) {
           passedTestLength++
         }
       })
 
-      // 테스트의 모든 종류를 다 통과해야함
+      // 6. 테스트 통과 횟수 확인
       if (passedTestLength === M) {
-        temp.push([mentor, mentee])
         answer++
       }
     }
@@ -47,4 +51,4 @@ function solution(N, M, arr) {
   return answer
 }
 
-console.log(solution(N, M, [arr1, arr2, arr3]));
+console.log(solution(N, M, tests));
